@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: supply-chain-command-centre
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
